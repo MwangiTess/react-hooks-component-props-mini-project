@@ -3,8 +3,9 @@ const Article = ({title, date, preview, minutes}) => {
         <article>
             <h3>{title}</h3>
             <p>
-            <small><time>{date ? date : 'January 1, 1970'}</time> - {preview} - {minutes} minutes to read </small>
+            <small><time>{date ? date : 'January 1, 1970'}</time>.   {minutes} min read </small>
             </p>
+            <p>{preview}</p>
            
 
         </article>
